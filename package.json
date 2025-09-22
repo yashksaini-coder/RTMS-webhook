@@ -1,0 +1,20 @@
+{
+  "name": "rtms-quickstart",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Get started with RTMS using Node.JS ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "transcript": "node --env-file=.env transcript.js",
+    "ws": "node ws.js"
+  },
+  "dependencies": {
+    "@zoom/rtms": "^0.0.2",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "ws": "^8.18.3"
+  },
+  "author": "Zoom Communications, Inc.",
+  "license": "MIT"
+}
